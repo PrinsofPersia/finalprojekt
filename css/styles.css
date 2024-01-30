@@ -1,0 +1,96 @@
+
+.navbar-brand{
+    position: absolute;
+    left: 110px;
+    height: 55px;
+}
+.navbar-nav{
+    position: sticky;
+    padding-left: 20%;
+    font-size: 18px;
+    gap: 110px;     
+       
+}
+
+
+.header{
+    background-color: black;
+    height: 170vh;
+}
+
+.map-back {
+    position: absolute;
+    left: 130px;
+    height: 110vh;
+    
+}
+.gold-car {
+    position: relative;
+    height: 70vh;
+    left: 37%;
+    top: 200px;
+   
+}
+.gold-car{
+filter: 
+drop-shadow(3px 3px 90px #5DBEB4);   
+}
+.header-txt{
+    position: absolute;
+    bottom: 150px;
+    left: 110px;
+    font-family: Muller;  
+    
+}
+font{
+    color: #D4CC7B;
+}
+h2{
+    width: 700;
+    font-size: 70px;
+    line-height: 70px;
+    font-family: serif,Muller;
+}
+p{
+    
+    font-size: 31px;
+}
+button{
+    border-radius: 20px;
+    width: 25%;
+    height: 45px;
+    background: linear-gradient(45deg, yellow,white);
+    filter: drop-shadow(3px 3px 10px #D6A500);
+    font-weight: bold;
+
+}
+.spin{
+    padding-top: 300px;
+}
+.spinner {         
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:conic-gradient(#0000 10%,#232047);
+    -webkit-mask:radial-gradient(farthest-side,#0000 calc(100% - 8px),#000 0);
+    animation:s3 2s infinite linear;
+  }
+  @keyframes s3 {to{transform: rotate(1turn)}}
+  
+  .section-1{
+    background-color: black;
+    height: 170vh;
+  }
+  .txt-section-1{
+       
+        width: 700;
+        font-size: 70px;
+        line-height: 70px;
+        font-family: serif,Muller;
+    }
+
+    
+
+
+
+
