@@ -497,7 +497,7 @@ article img {
 #switch3:checked~#controls label:nth-child(2),
 #switch4:checked~#controls label:nth-child(3),
 #switch5:checked~#controls label:nth-child(4) {
-  background: url('.../fonts/prev.png') no-repeat;
+  background: url('../img/prev.png') no-repeat;
   float: left;
   margin: 0 0 0 -70px;
   display: block;
@@ -511,7 +511,7 @@ article img {
 #switch3:checked~#controls label:nth-child(4),
 #switch4:checked~#controls label:nth-child(5),
 #switch5:checked~#controls label:nth-child(1) {
-  background: url('.../fonts/next.png') no-repeat;
+  background: url('../img/next.png') no-repeat;
   float: right;
   margin: 0 -84px 0 0;
   display: block;
