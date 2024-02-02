@@ -1,11 +1,24 @@
-document.getElementById('btn-next').addEventListener('click', function() {
-    document.getElementById('confirmation').classList.remove('hidden');
-  });
+const nextButton = document.getElementById('nextButton');
+const cardModal = document.getElementById('cardModal');
+const cardTitle = document.getElementById('cardTitle');
+const yesButton = document.getElementById('yesButton');
+const noButton = document.getElementById('noButton');
+
+
+nextButton.addEventListener('click', () => { 
+  cardModal.style.display = 'block';  
+ 
+  cardTitle.textContent = 'Вы подтверждаете заказ';
+});
+
+yesButton.addEventListener('click', () => {
   
-  document.getElementById('btn-yes').addEventListener('click', function() {
-    localStorage.setItem('confirmation', 'yes');
-  });
-  
-  document.getElementById('btn-no').addEventListener('click', function() {
-    localStorage.setItem('confirmation', 'no');
-  });
+  localStorage.setItem('ответ', 'да');
+  cardModal.style.display = 'none'; 
+});
+
+
+noButton.addEventListener('click', () => {  
+  localStorage.setItem('ответ', 'нет');
+  cardModal.style.display = 'none'; 
+});
