@@ -1,0 +1,2 @@
+# Название проекта Аренда авто в Крыму
+Этот проект был сверстан по [макету Figma](ссылка_Фигмыhttps://www.figma.com/file/EAIQRbfmANXYxMy9HQlBZe/Rcrent-%D0%BC%D0%BE%D0%B1.-(Copy)?type=design&node-id=617-0&mode=design&t=LthDCZpbcJm1qQTP-0)
